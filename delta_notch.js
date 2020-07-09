@@ -46,6 +46,7 @@ class Hex {
 
 function setup(){
     canvas = document.querySelector("canvas");
+	canvas.height = 0;
     canvas.height = document.body.offsetHeight - controls.clientHeight - parseFloat(window.getComputedStyle(document.body).paddingTop) - parseFloat(window.getComputedStyle(document.body).paddingBottom);
     canvas.width = document.body.offsetWidth - parseFloat(window.getComputedStyle(document.body).paddingLeft) - parseFloat(window.getComputedStyle(document.body).paddingRight);
     context = canvas.getContext('2d');
@@ -162,5 +163,5 @@ function runge_kuttta(derivative, y, step) {
 
 var stopped = true;
 var updating = false;
-window.addEventListener('load', setup);
-window.addEventListener('resize', setup	)
+document.addEventListener('DOMContentLoaded', setup);
+window.addEventListener('resize', setup)
