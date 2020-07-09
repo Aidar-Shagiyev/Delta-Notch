@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="controls">
+			<div class="control_wrap">
+				<span class="label_text">Size of the hexagons</span>
+				<input type="range" id="hex_size" name="size" min="15" max="120" step="1" oninput="generate_grid()">
+			</div>
+			<div class="control_wrap">
+				<span class="label_text">Speed</span>
+				<input type="range" id="speed" name="speed" min="10" max="100" step="1">
+			</div>
+			<button onclick="stopped = false; !updating && update(); this.blur()"><span class="label_text">Start</span</button>
+			<button onclick="stopped = true; this.blur()"><span class="label_text">Stop</span</button>
+			<button onclick="generate_grid(); this.blur()"><span class="label_text">Reset</span</button>
+		</div>
+		<canvas></canvas>
+		<script src="delta_notch.js"></script>
+	</body>
+</html>
