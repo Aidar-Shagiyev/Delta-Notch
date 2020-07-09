@@ -163,5 +163,5 @@ function runge_kuttta(derivative, y, step) {
 
 var stopped = true;
 var updating = false;
-document.addEventListener('DOMContentLoaded', setup);
+setup();
 window.addEventListener('resize', setup)
