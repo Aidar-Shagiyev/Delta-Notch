@@ -162,4 +162,4 @@ function runge_kuttta(derivative, y, step) {
 
 var stopped = true;
 var updating = false;
-setTimeout(setup, 10);
+document.addEventListener("DOMContentLoaded", setup);
