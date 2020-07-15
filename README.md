@@ -21,7 +21,7 @@ where <img src="https://render.githubusercontent.com/render/math?math=\bar{d}"> 
 <img src="https://render.githubusercontent.com/render/math?math=f(x)=\frac{x^{k}}{a %2B x^{k}}">
 <img src="https://render.githubusercontent.com/render/math?math=g(x)=\frac{1}{1 %2B bx^{k}}">
 
-I used the same values for free parameters as reported in the paper: <img src="https://render.githubusercontent.com/render/math?math=a = 0.01, b = 100, v = 1, k = h = 2">. The initial values of <img src="https://render.githubusercontent.com/render/math?math=d"> and <img src="https://render.githubusercontent.com/render/math?math=n"> are generated randomly in the range from 0 to 0.2 (with uniform distribution).
+I used the same values for free parameters as reported in the paper: <img src="https://render.githubusercontent.com/render/math?math=a = 0.01, b = 100, v = 1, k = h = 2">. The initial values of <img src="https://render.githubusercontent.com/render/math?math=d"> and <img src="https://render.githubusercontent.com/render/math?math=n"> are generated randomly in the range from 0 to 0.2 (with uniform distribution). During simulation, values of the parameters are updated using the <a href="https://encyclopediaofmath.org/wiki/Runge-Kutta_method" target="_blank">Runge-Kutta method</a>.
 
 <b>Important note:</b> the boundary conditions are zero Delta activity (meaning that cell walls that look into the void don't see any Delta molecules, which results in outer cells being more susceptible to higher Delta levels).
 
