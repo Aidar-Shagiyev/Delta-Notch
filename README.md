@@ -25,4 +25,4 @@ I used the same values for free parameters as reported in the paper: <img src="h
 
 <b>Important note:</b> the boundary conditions are zero Delta activity (meaning that cell walls that look into the void don't see any Delta molecules, which results in outer cells being more susceptible to higher Delta levels).
 
-Finally, <b>color scheme</b>: colors only represent value of <img src="https://render.githubusercontent.com/render/math?math=d"> -- cyan is 0 and fuchsia is 1.
+Finally, <b>color scheme</b>: colors only represent value of <img src="https://render.githubusercontent.com/render/math?math=d"> -- 0 is cyan and 1 is fuchsia.
